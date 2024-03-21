@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\Idler\\Idler.csproj",
-      "projectName": "Idler",
-      "projectPath": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\Idler\\Idler.csproj",
+      "projectUniqueName": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\IdleGame\\IdleGame\\IdleGame.csproj",
+      "projectName": "IdleGame",
+      "projectPath": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\IdleGame\\IdleGame\\IdleGame.csproj",
       "packagesPath": "C:\\Users\\maste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\Idler\\obj\\",
+      "outputPath": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\IdleGame\\IdleGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maste\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,4 +1,4 @@
-namespace Idler
+namespace IdleGame
 {
     public partial class Form1 : Form
     {

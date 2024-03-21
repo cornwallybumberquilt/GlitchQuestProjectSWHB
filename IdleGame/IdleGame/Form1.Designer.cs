@@ -1,4 +1,4 @@
-﻿namespace Idler
+﻿namespace IdleGame
 {
     partial class Form1
     {
