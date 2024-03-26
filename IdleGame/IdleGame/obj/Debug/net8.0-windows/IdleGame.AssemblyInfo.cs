@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdleGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f242cbe4654f00d66393e8f086c6f202e3ae34f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d11c36d7b1559f86a7de163bc17d5a40b71c3a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdleGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdleGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

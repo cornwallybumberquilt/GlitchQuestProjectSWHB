@@ -1,0 +1,17 @@
+G:\GlitchQuest Project\IdleGame\IdleGame\bin\Debug\net8.0-windows\IdleGame.exe
+G:\GlitchQuest Project\IdleGame\IdleGame\bin\Debug\net8.0-windows\IdleGame.deps.json
+G:\GlitchQuest Project\IdleGame\IdleGame\bin\Debug\net8.0-windows\IdleGame.runtimeconfig.json
+G:\GlitchQuest Project\IdleGame\IdleGame\bin\Debug\net8.0-windows\IdleGame.dll
+G:\GlitchQuest Project\IdleGame\IdleGame\bin\Debug\net8.0-windows\IdleGame.pdb
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.Form1.resources
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.csproj.GenerateResource.cache
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.GeneratedMSBuildEditorConfig.editorconfig
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.AssemblyInfoInputs.cache
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.AssemblyInfo.cs
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.csproj.CoreCompileInputs.cache
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.sourcelink.json
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.dll
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\refint\IdleGame.dll
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.pdb
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\IdleGame.genruntimeconfig.cache
+G:\GlitchQuest Project\IdleGame\IdleGame\obj\Debug\net8.0-windows\ref\IdleGame.dll

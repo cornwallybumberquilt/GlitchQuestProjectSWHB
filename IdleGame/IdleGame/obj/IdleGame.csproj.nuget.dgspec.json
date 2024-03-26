@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\IdleGame\\IdleGame\\IdleGame.csproj": {}
+    "G:\\GlitchQuest Project\\IdleGame\\IdleGame\\IdleGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\IdleGame\\IdleGame\\IdleGame.csproj": {
+    "G:\\GlitchQuest Project\\IdleGame\\IdleGame\\IdleGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\IdleGame\\IdleGame\\IdleGame.csproj",
+        "projectUniqueName": "G:\\GlitchQuest Project\\IdleGame\\IdleGame\\IdleGame.csproj",
         "projectName": "IdleGame",
-        "projectPath": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\IdleGame\\IdleGame\\IdleGame.csproj",
-        "packagesPath": "C:\\Users\\maste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maste\\OneDrive\\Desktop\\repos\\GlitchQuestProjectSWHB\\IdleGame\\IdleGame\\obj\\",
+        "projectPath": "G:\\GlitchQuest Project\\IdleGame\\IdleGame\\IdleGame.csproj",
+        "packagesPath": "C:\\Users\\Papa Logan\\.nuget\\packages\\",
+        "outputPath": "G:\\GlitchQuest Project\\IdleGame\\IdleGame\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\maste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Papa Logan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

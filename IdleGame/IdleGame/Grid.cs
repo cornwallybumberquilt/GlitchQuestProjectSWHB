@@ -3,13 +3,11 @@
     /// <summary>
     /// Class for creating a grid object
     /// </summary>
-    internal class Grid
+    internal class Grid : Panel
     {
         int cellSize { get; set; }
         int numRows { get; set; }
         int numCols { get; set; }
-        double height;
-        double width;
         bool renderLines { get; set; }
         public List<(int, int)> cells;
 
@@ -25,9 +23,10 @@
             this.cellSize = cellSize;
             this.numRows = numRows;
             this.numCols = numCols;
-            this.height = this.numRows * this.cellSize;
-            this.width = this.numCols * this.cellSize;
+            this.Height = this.numRows * this.cellSize;
+            this.Width = this.numCols * this.cellSize;
             this.renderLines = renderLines;
+            this.BackColor = Color.Black;
             this.cells = new List<(int, int)>();
             for (int x = 0; x < numRows; x++)
             {
@@ -49,9 +48,27 @@
         /// This will be used to draw the grid to the screen in winforms
         /// </summary>
         /// <exception cref="NotImplementedException"></exception>
-        public void Draw()
+        public void Draw(object sender, PaintEventArgs data)
         {
-            throw new NotImplementedException();
+            Panel panel = sender as Panel;
+            Graphics graphics = data.Graphics;
+            Pen pen = new Pen(Color.White);
+
+            // Draw horizontal lines
+            for (int i = 0; i <= numRows; i++)
+            {
+                int y = i * cellSize;
+                graphics.DrawLine(pen, 0, y, Width, y);
+            }
+
+            // Draw vertical lines
+            for (int i = 0; i <= numCols; i++)
+            {
+                int x = i * cellSize;
+                graphics.DrawLine(pen, x, 0, x, Height);
+            }
+
+            pen.Dispose();
         }
         /// <summary>
         /// This is a switch to toggle lines of the grid on and off
