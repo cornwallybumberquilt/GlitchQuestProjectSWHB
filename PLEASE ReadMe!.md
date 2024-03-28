@@ -13,7 +13,7 @@ go to grid.cs and in the Draw class edit this line
 Go to grid.cs and edit this line under the main grid class
 - `this.BackColor = Color.Blue;`
 
-##Unsizable Fixed Screen 3/28/24 11:47 PM
+## Unsizable Fixed Screen 3/28/24 11:47 PM
 Go to Form1.cs Design properties. Under FormBorderStyle change to FixedSingle. For MaximizeBox
 switch to False. The code's been updated on GitHub with all past changes so far. You can still
 move the screen around like the Python Idler, but nothing can be resized.
