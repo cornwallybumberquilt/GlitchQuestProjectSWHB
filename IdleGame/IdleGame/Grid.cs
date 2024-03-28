@@ -52,7 +52,9 @@
         {
             Panel panel = sender as Panel;
             Graphics graphics = data.Graphics;
-            Pen pen = new Pen(Color.White);
+
+            // this sets the grid line color
+            Pen pen = new Pen(Color.Yellow);
 
             // Draw horizontal lines
             for (int i = 0; i <= numRows; i++)
