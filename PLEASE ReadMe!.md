@@ -1,4 +1,4 @@
-GlitchQuest project repository for a team whose name cannot be spoken.
+Past and current changes.
 
 ## Bad Grid
 We don't need GameLoop.cs, that can run in Main() for Program.cs. Now stuff can be displayed.
