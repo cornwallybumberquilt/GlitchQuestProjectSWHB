@@ -1,6 +1,5 @@
 # GlitchQuestProjectSWHB
-GlitchQuest project repository for Team Super Weenie Hut Boys
-
+GlitchQuest project repository for Team Super Weenie Hut Boys.
 Past and current changes.
 
 ## Bad Grid
