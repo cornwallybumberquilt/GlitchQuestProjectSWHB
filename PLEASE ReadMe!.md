@@ -18,3 +18,6 @@ Go to grid.cs and edit this line under the main grid class
 Go to Form1.cs Design properties. Under FormBorderStyle change to FixedSingle. For MaximizeBox
 switch to False. The code's been updated on GitHub with all past changes so far. You can still
 move the screen around like the Python Idler, but nothing can be resized.
+
+## GitHub Crisis Averted 4/2/24
+All code is updated with the most recent version, no extra programs or files either.
