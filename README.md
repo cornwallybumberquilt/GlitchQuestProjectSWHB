@@ -28,8 +28,15 @@ All code is updated with the most recent version, no extra programs or files eit
 
 *The minimum amount of objects 25* 
  
-##3 types (catagories of objects)
-- food
-- potions
-- weapons
+## 3 Types of objects
+### Food
+- 
+- 
+
+### Potions
+- potentially make potion a randomizable object.
+- 
+### Weapons
+- 
+- 
 - and of course... the glock. 
