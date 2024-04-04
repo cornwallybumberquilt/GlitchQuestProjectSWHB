@@ -1,4 +1,4 @@
-# When uploading new versions comment out what you changed at this bottom of this file. Add the date to the title of your changes.
+# Create your own branch of this project, that way no one deletes someone else's changes that may have been useful. When uploading new versions comment out what you changed at this bottom of this file. Add the date to the title of your changes.
 GlitchQuest project repository for Team Super Weenie Hut Boys.
 Past and current changes.
 
