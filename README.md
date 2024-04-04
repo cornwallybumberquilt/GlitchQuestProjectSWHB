@@ -23,3 +23,13 @@ move the screen around like the Python Idler, but nothing can be resized.
 
 ## GitHub Crisis Averted 4/2/24
 All code is updated with the most recent version, no extra programs or files either.
+
+# Objects Brainstorm
+
+*The minimum amount of objects 25* 
+ 
+##3 types (catagories of objects)
+- food
+- potions
+- weapons
+- and of course... the glock. 
