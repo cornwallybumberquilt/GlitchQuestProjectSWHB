@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Blip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Enemies\Enemy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Enemies\MadGuy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Enemies\Snake.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Environments\Desert.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Environments\Environment.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Environments\Mountain.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Environments\Puddle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Environments\River.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Environments\Tree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Square.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="SquareView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="WorldView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
