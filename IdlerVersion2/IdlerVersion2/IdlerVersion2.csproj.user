@@ -43,6 +43,9 @@
     <Compile Update="SquareView.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="StartMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="WorldView.cs">
       <SubType>Form</SubType>
     </Compile>

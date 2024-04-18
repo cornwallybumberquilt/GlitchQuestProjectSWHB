@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdlerVersion2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+155b40a6e2bfe7e0cb4c77b221d5926fd39e1938")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdlerVersion2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdlerVersion2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
