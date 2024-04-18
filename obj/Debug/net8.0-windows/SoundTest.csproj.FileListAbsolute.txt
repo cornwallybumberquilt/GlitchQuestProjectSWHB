@@ -1,0 +1,10 @@
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\SoundTest.csproj.AssemblyReference.cache
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\IdlerVersion2.Form1.resources
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\IdlerVersion2.GridView.resources
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\SoundTest.Properties.Resources.resources
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\IdlerVersion2.WorldView.resources
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\SoundTest.csproj.GenerateResource.cache
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\SoundTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\SoundTest.AssemblyInfoInputs.cache
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\SoundTest.AssemblyInfo.cs
+C:\Users\jbent\Downloads\Test2\IdlerVersion2\IdlerVersion2\obj\Debug\net8.0-windows\SoundTest.csproj.CoreCompileInputs.cache
