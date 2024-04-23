@@ -19,6 +19,7 @@ namespace IdlerVersion2
             //Form 1 is the form for project milestone 1
             //Application.Run(new Form1());
             //Worldview is the severely deformed form where I'm just trying to get the grid to update
+            Application.Run(new NavigationMenuForm());
             Application.Run(new WorldView(world));
             //Application.Run(new WorldForm(world));
 

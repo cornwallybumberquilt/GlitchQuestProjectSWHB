@@ -4,12 +4,15 @@ using System.Windows.Forms;
 
 namespace IdlerVersion2
 {
+
+
+
     public partial class NavigationMenuForm : Form
     {
         public NavigationMenuForm()
         {
             Text = "Idler Game Menu";
-            Size = new Size(500, 350);
+            Size = new Size(500, 500);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = true;
             StartPosition = FormStartPosition.CenterScreen;
@@ -75,17 +78,69 @@ namespace IdlerVersion2
             Controls.Add(btnContinueGame);
         }
 
+
         private void BtnNewGame_Click(object sender, EventArgs e)
         {
-            Blip blip = new Blip(5, 1);
-            World world = new World(100, 10, 10, blip);
-            WorldView mainGame = new WorldView(world);
+            // Create input fields for rows and columns
+            TextBox txtRows = new TextBox();
+            txtRows.Location = new Point(175, 280);
+            txtRows.Size = new Size(150, 20);
 
-            // Close the current form
-            this.Close();
+            TextBox txtColumns = new TextBox();
+            txtColumns.Location = new Point(175, 310);
+            txtColumns.Size = new Size(150, 20);
 
-            mainGame.Show();
+            Label lblRows = new Label();
+            lblRows.Text = "Rows:";
+            lblRows.ForeColor = Color.White;
+            lblRows.Location = new Point(100, 280);
+
+            Label lblColumns = new Label();
+            lblColumns.Text = "Columns:";
+            lblColumns.ForeColor = Color.White;
+            lblColumns.Location = new Point(100, 310);
+
+            // Create OK button to confirm input
+            Button btnOk = new Button();
+            btnOk.Text = "OK";
+            btnOk.Size = new Size(70, 30);
+            btnOk.Location = new Point(250, 350);
+            btnOk.BackColor = Color.FromArgb(46, 204, 113);
+            btnOk.ForeColor = Color.White;
+            btnOk.Font = new Font(btnOk.Font.FontFamily, 10, FontStyle.Bold);
+            btnOk.FlatStyle = FlatStyle.Flat;
+            btnOk.FlatAppearance.BorderSize = 0;
+            btnOk.Click += (s, args) =>
+            {
+                int rows, columns;
+                if (int.TryParse(txtRows.Text, out rows) && int.TryParse(txtColumns.Text, out columns))
+                {
+                    // Create Blip and World objects using the user-entered values
+                    Blip blip = new Blip(5, 1);
+                    World world = new World(100, rows, columns, blip);
+                    WorldView mainGame = new WorldView(world);
+
+                    // Close the current form
+                    this.Close();
+
+                    
+                    mainGame.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Please enter valid numbers for rows and columns.");
+                }
+            };
+
+            // Add controls to form controls collection
+            Controls.Add(txtRows);
+            Controls.Add(txtColumns);
+            Controls.Add(lblRows);
+            Controls.Add(lblColumns);
+            Controls.Add(btnOk);
         }
+
+
 
         private void BtnLoadGame_Click(object sender, EventArgs e)
         {

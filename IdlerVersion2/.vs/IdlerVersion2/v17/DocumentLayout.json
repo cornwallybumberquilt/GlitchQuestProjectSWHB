@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Logan\\Desktop\\GlitchQuestProjectSWHB\\IdlerVersion2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34091B9F-3AFB-4A2E-B4AA-8A94A6989901}|IdlerVersion2\\IdlerVersion2.csproj|c:\\users\\logan\\desktop\\glitchquestprojectswhb\\idlerversion2\\idlerversion2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34091B9F-3AFB-4A2E-B4AA-8A94A6989901}|IdlerVersion2\\IdlerVersion2.csproj|solutionrelative:idlerversion2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Logan\\Desktop\\GlitchQuestProjectSWHB\\IdlerVersion2\\IdlerVersion2\\Program.cs",
+              "RelativeDocumentMoniker": "IdlerVersion2\\Program.cs",
+              "ToolTip": "C:\\Users\\Logan\\Desktop\\GlitchQuestProjectSWHB\\IdlerVersion2\\IdlerVersion2\\Program.cs",
+              "RelativeToolTip": "IdlerVersion2\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvxsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:38:51.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
