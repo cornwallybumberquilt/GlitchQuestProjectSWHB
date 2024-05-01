@@ -4,6 +4,7 @@ namespace Glitchquest
     /// <summary>
     /// Creates an instance of the grid
     /// </summary>
+    [Serializable]
     public class Grid
     {
         public int _cellSize;

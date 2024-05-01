@@ -4,6 +4,7 @@ namespace Glitchquest.Inventory
     /// <summary>
     /// Model for an Armor object
     /// </summary>
+    [Serializable]
     internal class Armor : Equipment
     {
         /// <summary>

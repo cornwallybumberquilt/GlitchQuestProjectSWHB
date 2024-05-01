@@ -1,21 +1,38 @@
 ﻿//Team Mystic: Cecil, Clayton, Ash, Billy, Alex, Logan
 using Glitchquest.Enemies;
 using Glitchquest.Environments;
+using Newtonsoft.Json;
 
 namespace Glitchquest
 {
     /// <summary>
     /// Creates an instance of a world object
     /// </summary>
+    [Serializable]
     public class World
     {
+        [JsonProperty]
         public Grid _grid;
+
+        [JsonProperty]
         public int _cellSize;
+
+        [JsonProperty]
         public int _numRows;
+
+        [JsonProperty]
         public int _numCols;
+
+        [JsonProperty]
         public Blip _blip;
+
+        [JsonProperty]
         public SquareHead _squareHead;
+
+        [JsonProperty]
         public int _turnCount;
+
+
         /// <summary>
         /// Parameterized constructor
         /// </summary>
@@ -25,7 +42,8 @@ namespace Glitchquest
         /// <param name="blip"></param>
         public World(int cellSize, int numRows, int numCols, Blip blip)
         {
-            _blip = blip;
+            // instializing blip in this way ensures that an object is present when using the load feature
+            _blip = blip ?? new Blip();
             _cellSize = cellSize;
             _numRows = numRows;
             _numCols = numCols;
@@ -215,6 +233,18 @@ namespace Glitchquest
                 }
                 _turnCount++;
             }
+        }
+
+        public void Save(string filePath)
+        {
+            string json = JsonConvert.SerializeObject(this);
+            System.IO.File.WriteAllText(filePath, json);
+        }
+
+        public static World Load(string filePath)
+        {
+            string json = System.IO.File.ReadAllText(filePath);
+            return JsonConvert.DeserializeObject<World>(json);
         }
     }
 }

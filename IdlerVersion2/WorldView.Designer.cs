@@ -103,20 +103,22 @@
             // newGameToolStripMenuItem
             // 
             newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            newGameToolStripMenuItem.Size = new Size(204, 34);
+            newGameToolStripMenuItem.Size = new Size(270, 34);
             newGameToolStripMenuItem.Text = "New Game";
             // 
             // saveGameToolStripMenuItem
             // 
             saveGameToolStripMenuItem.Name = "saveGameToolStripMenuItem";
-            saveGameToolStripMenuItem.Size = new Size(204, 34);
+            saveGameToolStripMenuItem.Size = new Size(270, 34);
             saveGameToolStripMenuItem.Text = "Save Game";
+            saveGameToolStripMenuItem.Click += saveGameToolStripMenuItem_Click;
             // 
             // loadGameToolStripMenuItem
             // 
             loadGameToolStripMenuItem.Name = "loadGameToolStripMenuItem";
-            loadGameToolStripMenuItem.Size = new Size(204, 34);
+            loadGameToolStripMenuItem.Size = new Size(270, 34);
             loadGameToolStripMenuItem.Text = "Load Game";
+            loadGameToolStripMenuItem.Click += loadGameToolStripMenuItem_Click;
             // 
             // aboutToolStripMenuItem
             // 

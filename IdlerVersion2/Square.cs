@@ -6,6 +6,7 @@ namespace Glitchquest
     /// <summary>
     /// Creates an instance of a square to display on the grid
     /// </summary>
+    [Serializable]
     public class Square
     {
         public string Name;

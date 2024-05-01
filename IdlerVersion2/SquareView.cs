@@ -6,6 +6,7 @@ namespace Glitchquest
     /// <summary>
     /// creates an object meant to display a cell on a grid
     /// </summary>
+    [Serializable]
     public class SquareView : Panel
     {
 
@@ -76,39 +77,39 @@ namespace Glitchquest
             }
 
             ///Following chosen by various square types
-            else if (_square is Mountain)
+            else if (_square.Name is "Mountian")
             {
                 BackgroundImage = Properties.Resources.GridMountain;
             }
-            else if (_square is Tree)
+            else if (_square.Name is "Tree")
             {
                 BackgroundImage = Properties.Resources.GridTree;
             }
-            else if (_square is Desert)
+            else if (_square.Name is "Desert")
             {
                 BackgroundImage = Properties.Resources.GridDesert;
             }
-            else if (_square is MadGuy)
+            else if (_square.Name is "Mad Guy")
             {
                 BackgroundImage = Properties.Resources.GridMadGuy;
             }
-            else if (_square is Snake)
+            else if (_square.Name is "Snake")
             {
                 BackgroundImage = Properties.Resources.GridSnake;
             }
-            else if (_square is AngryCircle)
+            else if (_square.Name is "AngryCircle")
             {
                 BackgroundImage = Properties.Resources.GridAngryCircle;
             }
-            else if (_square is BadGrade)
+            else if (_square.Name is "Bad Grade")
             {
                 BackgroundImage = Properties.Resources.GridBadGrade;
             }
-            else if (_square is RandomScribbles)
+            else if (_square.Name is "Random Scribbles")
             {
                 BackgroundImage = Properties.Resources.GridRandomScribbles;
             }
-            else if (_square is StrangeHorse)
+            else if (_square.Name is "Strange Horse")
             {
                 BackgroundImage = Properties.Resources.GridStrangeHorse;
             }

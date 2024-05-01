@@ -4,6 +4,7 @@ namespace Glitchquest.Inventory
     /// <summary>
     /// Model for item objects
     /// </summary>
+    [Serializable]
     public class Item
     {
         public string _name;

@@ -4,13 +4,17 @@ namespace Glitchquest.Environments
     /// <summary>
     /// Creates an instance of a mountain environment object
     /// </summary>
-    internal class Mountain : Square
+    [Serializable]
+    public class Mountain : Square
     {
         /// <summary>
         /// Default Constructor
         /// </summary>
         /// <param name="size"></param>
-        public Mountain() { }
+        public Mountain() 
+        {
+            Name = "Mountian";
+        }
 
         /// <summary>
         /// Event triggered when blip moves onto this tile

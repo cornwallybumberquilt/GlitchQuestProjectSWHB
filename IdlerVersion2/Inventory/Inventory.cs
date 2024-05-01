@@ -1,4 +1,5 @@
 ﻿//Team Mystic: Cecil, Clayton, Ash, Billy, Alex, Logan
+using Newtonsoft.Json;
 namespace Glitchquest.Inventory
 {
     /// <summary>

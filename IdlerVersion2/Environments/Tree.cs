@@ -6,13 +6,17 @@ namespace Glitchquest.Environments
     /// <summary>
     /// Creates an instance of a tree environment object
     /// </summary>
-    internal class Tree : Square
+    [Serializable]
+    public class Tree : Square
     {
         /// <summary>
         /// Default Constructor
         /// </summary>
         /// <param name="size"></param>
-        public Tree() { }
+        public Tree() 
+        {
+            Name = "Tree";
+        }
 
         /// <summary>
         /// Event to be triggered when Blip moves to this cell

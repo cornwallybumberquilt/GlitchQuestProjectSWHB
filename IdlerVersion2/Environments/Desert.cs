@@ -4,13 +4,20 @@ namespace Glitchquest.Environments
     /// <summary>
     /// Creates an instance of a desert environment object
     /// </summary>
-    internal class Desert : Square
+    [Serializable]
+    public class Desert : Square
     {
         /// <summary>
         /// Default Constructor
         /// </summary>
         /// <param name="size"></param>
-        public Desert() { }
+        public Desert() 
+        {
+            Name = "Desert";
+        }
+
+
+
         /// <summary>
         /// Event triggered when blip moves onto this tile
         /// </summary>
