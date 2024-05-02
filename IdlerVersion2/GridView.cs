@@ -51,6 +51,19 @@ namespace Glitchquest
             }
         }
 
+        public void ClearGridUI()
+        {
+            // Remove all existing SquareView controls from the GridView
+            foreach (var squareView in _squaresView)
+            {
+                Controls.Remove(squareView);
+                squareView.Dispose();
+            }
+
+            // Clear the list of SquareView controls
+            _squaresView.Clear();
+        }
+
         private void GridView_Load(object sender, EventArgs e)
         {
 

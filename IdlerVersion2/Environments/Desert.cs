@@ -10,7 +10,10 @@ namespace Glitchquest.Environments
         /// Default Constructor
         /// </summary>
         /// <param name="size"></param>
-        public Desert() { }
+        public Desert() 
+        {
+            Name = "Desert";
+        }
         /// <summary>
         /// Event triggered when blip moves onto this tile
         /// </summary>

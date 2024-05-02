@@ -10,7 +10,10 @@ namespace Glitchquest.Environments
         /// Default Constructor
         /// </summary>
         /// <param name="size"></param>
-        public Mountain() { }
+        public Mountain() 
+        {
+            Name = "Mountian";
+        }
 
         /// <summary>
         /// Event triggered when blip moves onto this tile

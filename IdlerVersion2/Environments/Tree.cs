@@ -12,7 +12,10 @@ namespace Glitchquest.Environments
         /// Default Constructor
         /// </summary>
         /// <param name="size"></param>
-        public Tree() { }
+        public Tree() 
+        {
+            Name = "Tree";
+        }
 
         /// <summary>
         /// Event to be triggered when Blip moves to this cell

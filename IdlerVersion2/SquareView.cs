@@ -76,35 +76,35 @@ namespace Glitchquest
             }
 
             ///Following chosen by various square types
-            else if (_square is Mountain)
+            else if (_square.Name is "Mountian")
             {
                 BackgroundImage = Properties.Resources.rocky_crag;
             }
-            else if (_square is Tree)
+            else if (_square.Name is "Tree")
             {
                 BackgroundImage = Properties.Resources.forest;
             }
-            else if (_square is Desert)
+            else if (_square.Name is "Desert")
             {
                 BackgroundImage = Properties.Resources.safe_clearing;
             }
-            else if (_square is Chest)
+            else if (_square.Name is "Chest")
             {
                 BackgroundImage = Properties.Resources.loot_chest_2;
             }
-            else if (_square is Hungry)
+            else if (_square.Name is "Hungry")
             {
                 BackgroundImage = Properties.Resources.hungry;
             }
-            else if (_square is LostSouls)
+            else if (_square.Name is "LostSouls")
             {
                 BackgroundImage = Properties.Resources.lost_souls1;
             }
-            else if (_square is AngryCircle)
+            else if (_square.Name is "AngryCircle")
             {
                 BackgroundImage = Properties.Resources.GridAngryCircle;
             }
-            else if (_square is Mimic)
+            else if (_square.Name is "Mimic")
             {
                 if(_square._mimic == true) 
                 {
@@ -112,11 +112,11 @@ namespace Glitchquest
                 }
                 BackgroundImage = Properties.Resources.loot_chest_2;
             }
-            else if (_square is CursedSword)
+            else if (_square.Name is "CursedSword")
             {
                 BackgroundImage = Properties.Resources.red_old_sword;
             }
-            else if (_square is StrangeHorse)
+            else if (_square.Name is "StrangeHorse")
             {
                 BackgroundImage = Properties.Resources.GridStrangeHorse;
             }

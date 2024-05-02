@@ -1,4 +1,6 @@
 //Team Mystic: Cecil, Clayton, Ash, Billy, Alex, Logan
+using System.Diagnostics;
+
 namespace Glitchquest
 {
     /// <summary>
@@ -16,10 +18,15 @@ namespace Glitchquest
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Blip blip = new Blip();
-            World world = new World(100, 10, 10, blip);
+            //Blip blip = new Blip();
+           // World world = new World(100, 10, 10, blip);
+
+            Application.Run(new NavigationMenuForm());
+            
+
+
             //Worldview is the main form of the program
-            Application.Run(new WorldView(world));
+           // Application.Run(new WorldView(world));
 
         }
     }

@@ -1,4 +1,5 @@
 ﻿//Team Mystic: Cecil, Clayton, Ash, Billy, Alex, Logan
+using Newtonsoft.Json;
 namespace Glitchquest.Inventory
 {
     /// <summary>
@@ -6,11 +7,13 @@ namespace Glitchquest.Inventory
     /// </summary>
     public class Armor : Equipment
     {
+        
         /// <summary>
         /// Parameterized constructor
         /// </summary>
         /// <param name="name"></param>
         /// <param name="index"></param>
+        [JsonConstructor]
         public Armor(string name = "", int index = 0) : base(name, index)
         {
             if (index == 0)

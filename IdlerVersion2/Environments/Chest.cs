@@ -11,7 +11,10 @@ namespace Glitchquest.Environments
     {
 
 
-        public Chest() { }
+        public Chest() 
+        {
+            Name = "Chest";
+        }
         /// <summary>
         /// Event triggered when blip moves onto this tile
         /// </summary>

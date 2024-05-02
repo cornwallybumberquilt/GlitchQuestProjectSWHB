@@ -7,7 +7,7 @@
     {
         World _world;
         AudioManager audioManager;
-        
+
 
         /// <summary>
         /// Parameterized Constructor
@@ -24,7 +24,7 @@
             expBar.Minimum = 0;
             expBar.Maximum = _world._blip.expToLevel;
             cooldownBar.Minimum = 0;
-            cooldownBar.Maximum = Convert.ToInt32(_world._blip.actionCooldown); 
+            cooldownBar.Maximum = Convert.ToInt32(_world._blip.actionCooldown);
             healthBar.Minimum = 0;
             healthBar.Maximum = _world._blip.maxHealth;
             hungerBar.Minimum = 0;
@@ -36,7 +36,7 @@
             armorLabel.Text = $"{_world._blip.armor}";
             levelValueLabel.Text = $"{_world._blip.level}";
             deathsValueLabel.Text = $"{_world._blip.deathCounter}";
-                    }
+        }
 
         private void gridView1_Load(object sender, EventArgs e)
         {
@@ -56,7 +56,7 @@
         /// <summary>
         /// Advances the gamestate and updates the grid
         /// </summary>
-        public void WorldController() 
+        public void WorldController()
         {
             bool blipDied = false;
             if (_world._blip.health == 0)
@@ -125,5 +125,90 @@
 
         }
 
+        // save game
+        private void saveGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        _world.Save(saveFileDialog.FileName);
+                        MessageBox.Show("Game saved successfully.", "Save Game", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"An error occurred while saving the game: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+
+        }
+        // load game
+        private void loadGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+
+
+                        // deserialized json world object
+                        World loadedWorld = World.Load(openFileDialog.FileName);
+
+                        // removes data from griid
+                        gridView1.ClearGridUI();
+
+                        _world = loadedWorld;
+
+
+                        gridView1.GridLoad(_world);
+                        gridView1.Invalidate();
+
+                        // Draw the grid 
+                        gridView1.Draw(_world);
+
+
+
+
+
+
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"An error occurred while loading the game: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+
+        // new game
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string rowsInput = Microsoft.VisualBasic.Interaction.InputBox("Enter the number of rows:", "New Game", "10");
+            string columnsInput = Microsoft.VisualBasic.Interaction.InputBox("Enter the number of columns:", "New Game", "10");
+            int rows, columns;
+            // Check if the input is valid
+            if (int.TryParse(rowsInput, out rows) && int.TryParse(columnsInput, out columns))
+            {
+
+                Blip blip = new Blip();
+                World world = new World(100, rows, columns, blip);
+
+                Hide();
+                WorldView mainGame = new WorldView(world);
+                mainGame.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please enter valid numbers for rows and columns.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
     }
 }

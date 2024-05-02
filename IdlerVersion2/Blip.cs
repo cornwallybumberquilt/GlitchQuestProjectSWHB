@@ -7,6 +7,7 @@ namespace Glitchquest
     /// <summary>
     /// Creates an instance of the blip object
     /// </summary>
+    [Serializable]
     public class Blip
     {
         public string Name;
