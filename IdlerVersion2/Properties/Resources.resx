@@ -130,6 +130,9 @@
   <data name="ProtectiveShape" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>ProtectiveShape.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="infected_apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>infected_apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Glitch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Glitch1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,8 +154,17 @@
   <data name="Grid Tile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Grid Tile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GridBadGrade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>GridBadGrade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GridTree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>GridTree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GridSquareHead" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>GridSquareHead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="safe clearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>safe clearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TwinShapedArmor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>TwinShapedArmor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,14 +175,17 @@
   <data name="GridChest" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>GridChest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Equipment" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Equipment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StartMenuBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>StartMenuBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hungry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hungry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sir Blip" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Sir Blip.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glitch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>glitch4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Inventory" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Inventory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,14 +199,8 @@
   <data name="GridStrangeHorse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>GridStrangeHorse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Health" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Health.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="PointyShapeSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>PointyShapeSword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CurrentStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>CurrentStatus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cooldown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cooldown.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,17 +208,20 @@
   <data name="GridDesert" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>GridDesert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GridTree" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>GridTree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Health" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Health.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>forest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="eyeball_bro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>eyeball_bro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Experience" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Experience.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GridBadGrade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>GridBadGrade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CurrentStatus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>CurrentStatus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GridMadGuy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>GridMadGuy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -225,9 +237,6 @@
   </data>
   <data name="Hunger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Hunger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="glitch4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>glitch4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GridSnake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>GridSnake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,13 +259,13 @@
   <data name="red old sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>red old sword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Equipment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Equipment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Glitch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Glitch2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="safe clearing" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>safe clearing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StartMenuBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>StartMenuBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="puddle_snake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>puddle_snake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

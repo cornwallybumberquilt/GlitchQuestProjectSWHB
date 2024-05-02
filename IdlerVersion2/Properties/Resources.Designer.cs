@@ -133,6 +133,16 @@ namespace Glitchquest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap eyeball_bro {
+            get {
+                object obj = ResourceManager.GetObject("eyeball_bro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap forest {
             get {
                 object obj = ResourceManager.GetObject("forest", resourceCulture);
@@ -363,6 +373,16 @@ namespace Glitchquest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap infected_apple {
+            get {
+                object obj = ResourceManager.GetObject("infected_apple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Inventory {
             get {
                 object obj = ResourceManager.GetObject("Inventory", resourceCulture);
@@ -406,6 +426,16 @@ namespace Glitchquest.Properties {
         internal static System.Drawing.Bitmap ProtectiveShape {
             get {
                 object obj = ResourceManager.GetObject("ProtectiveShape", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap puddle_snake {
+            get {
+                object obj = ResourceManager.GetObject("puddle_snake", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

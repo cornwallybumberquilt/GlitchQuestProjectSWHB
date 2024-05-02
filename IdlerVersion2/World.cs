@@ -134,16 +134,16 @@ namespace Glitchquest
                 }
                 else if (randomNumber == 2)
                 {
-                    _grid._squares.Add(new CursedSword());
+                    _grid._squares.Add(new InfectedApple());
                 }
                 else if (randomNumber == 3)
                 {
-                    _grid._squares.Add(new AngryCircle());
+                    _grid._squares.Add(new EyeballBro());
                 }
                 
                 else if (randomNumber == 4)
                 {
-                    _grid._squares.Add(new StrangeHorse());
+                    _grid._squares.Add(new PuddleSnake());
                 }
                 else if (randomNumber == 99)
                 {
@@ -189,6 +189,8 @@ namespace Glitchquest
             double activeCooldown = currentCooldown * gameSpeedModifier;
             if(activeCooldown >= cooldown) {
                 currentCooldown = 0;
+
+                //Resets world if blip dies
                 if (_blip.health == 0)
                 {
                     
@@ -211,7 +213,8 @@ namespace Glitchquest
 
                 else
                 {
-                    if (_turnCount == 100)
+                    //Awakens squarehead to purge map once game reaches designated turn count
+                    if (_turnCount == 125)
                     {
                         _blip.RecentActions.Add($"{_blip.Name} feels a chill down their spine...");
                         _squareHead.awake = true;
@@ -229,7 +232,7 @@ namespace Glitchquest
 
                     bool performedAction = _blip.Update();
 
-
+                    //advances world if either blip moved or squarehead is active
                     int i = 0;
                     if (performedAction || _squareHead.awake)
                     {
@@ -237,6 +240,7 @@ namespace Glitchquest
                         {
                             for (int k = 0; k < _grid._columns; k++)
                             {
+                                //for each cell of the grid, set bools to update its state based off what is currently active in the cell
                                 _grid._squares[i]._wasOccupied = false;
                                 if ((_grid._squares[i] is Chest || _grid._squares[i] is Mimic) && _turnCount > 10) 
                                 {
@@ -252,6 +256,8 @@ namespace Glitchquest
                                     _grid._squares[i]._ravaged = true;
                                     _grid._squares[i]._beingRavaged = false;
                                 }
+
+                                //Checks to see if squarehead and blip are occupying the same panel, and if so, starts combat
                                 if ((_grid._squares[i]._x == _blip._x && _grid._squares[i]._y == _blip._y)
                                 && (_grid._squares[i]._x == _squareHead._x && _grid._squares[i]._y == _squareHead._y))
                                 {

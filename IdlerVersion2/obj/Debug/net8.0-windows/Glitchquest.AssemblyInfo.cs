@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Glitchquest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3344607c4b953659684338dc56fbe18896f3036")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba04f4cb50dd2db5379e5cb055377b3c3ab40508")]
 [assembly: System.Reflection.AssemblyProductAttribute("Glitchquest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Glitchquest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

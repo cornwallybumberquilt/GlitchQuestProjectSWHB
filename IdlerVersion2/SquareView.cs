@@ -100,9 +100,9 @@ namespace Glitchquest
             {
                 BackgroundImage = Properties.Resources.lost_souls1;
             }
-            else if (_square.Name is "AngryCircle")
+            else if (_square.Name is "Eyeball Bro")
             {
-                BackgroundImage = Properties.Resources.GridAngryCircle;
+                BackgroundImage = Properties.Resources.eyeball_bro;
             }
             else if (_square.Name is "Mimic")
             {
@@ -112,13 +112,13 @@ namespace Glitchquest
                 }
                 BackgroundImage = Properties.Resources.loot_chest_2;
             }
-            else if (_square.Name is "CursedSword")
+            else if (_square.Name is "Infected Apple")
             {
-                BackgroundImage = Properties.Resources.red_old_sword;
+                BackgroundImage = Properties.Resources.infected_apple;
             }
-            else if (_square.Name is "StrangeHorse")
+            else if (_square.Name is "Puddle Snake")
             {
-                BackgroundImage = Properties.Resources.GridStrangeHorse;
+                BackgroundImage = Properties.Resources.puddle_snake;
             }
             ///Chosen if not filled by any other square condition
             else

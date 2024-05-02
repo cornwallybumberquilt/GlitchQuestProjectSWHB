@@ -1,4 +1,5 @@
-﻿namespace Glitchquest.Inventory
+﻿//Team Mystic: Cecil, Clayton, Ash, Billy, Alex, Logan
+namespace Glitchquest.Inventory
 {
     /// <summary>
     /// Model for a shield object

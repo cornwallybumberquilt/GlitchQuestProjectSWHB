@@ -1,5 +1,8 @@
 ﻿namespace Glitchquest
 {
+    /// <summary>
+    /// Class for displaying the grid to the screen
+    /// </summary>
     partial class GridView
     {
         /// <summary> 
